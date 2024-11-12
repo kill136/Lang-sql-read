@@ -164,7 +164,7 @@ class SQLMessageProcessor:
 
 async def main():
     # 配置Azure OpenAI
-    api_key = "03531639fa37446dabac846c3e0e320c"
+    api_key = "***********"
     endpoint = "https://dyopenaitest.openai.azure.com/"
     
     processor = SQLMessageProcessor(api_key, endpoint)
